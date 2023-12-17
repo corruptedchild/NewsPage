@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('https://unsplash.com/photos/xDQKvPjxtxo/download?ixid=M3wxMjA3fDF8MXxhbGx8MTYxfHx8fHx8Mnx8MTcwMjU3MTQ0MHw&force=true') center no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.news {
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    align-items: center;
+    justify-content: center;
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+    padding: 6px 15px;
+}
+
+article a {
+    color:mediumaquamarine;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 50%;
+    height:  300px;
+    object-fit: cover;
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h2.h2{
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.copyright {
+    color:rgb(108, 117, 125);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 45%;
+}
+
+article:nth-child(2n) {
+    background-color: rgba(255, 160, 122, 0.377);
+  }
+
+.new::after {
+    content: "(New!)";
+    color: lightgreen;
+}
